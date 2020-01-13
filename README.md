@@ -3,6 +3,6 @@ Projet de jeu
 
 Fait par : 
 
-Legrand Rémi
-Finoux Nicolas
-Raymond Nicolas
+• Legrand Rémi
+• Finoux Nicolas
+• Raymond Nicolas
