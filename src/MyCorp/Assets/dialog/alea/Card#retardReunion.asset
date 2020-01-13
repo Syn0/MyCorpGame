@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e2af88a3f9ebd49a44ebdd33b035a6, type: 3}
+  m_Name: Card#retardReunion
+  m_EditorClassIdentifier: 
+  dialog_string: "Mince, j'ai oubli\xE9 la r\xE9union..."
+  AnswerLeft_string: Je n'y vais pas.
+  AnswerRight_string: J'y vais mais je vais arriver en retard.
+  character: {fileID: 11400000, guid: 57af5e99b569eb34092219776c706a90, type: 2}
+  left_categoryEffect:
+  - impact: 2
+    value: -30
+  - impact: 0
+    value: 0
+  - impact: 1
+    value: -15
+  left_cardListToAdd: []
+  right_categoryEffect:
+  - impact: 1
+    value: -15
+  - impact: 0
+    value: 0
+  - impact: 1
+    value: 15
+  right_cardListToAdd: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e2af88a3f9ebd49a44ebdd33b035a6, type: 3}
+  m_Name: Card#Delegatif
+  m_EditorClassIdentifier: 
+  dialog_string: "\"Pour ce sujet, il me faut votre expertise pour g\xE9rer au mieux
+    le sujet\""
+  AnswerLeft_string: '"Je m''en charge et et je ferais un retour par mail"'
+  AnswerRight_string: "\"Je ne sais pas par o\xF9 commencer, il me faut plus de pr\xE9cision\""
+  character: {fileID: 11400000, guid: 14495b6e432f05d4d9ca31cce8b55708, type: 2}
+  left_categoryEffect:
+  - impact: 1
+    value: 15
+  - impact: 0
+    value: 0
+  - impact: 0
+    value: 0
+  left_cardListToAdd: []
+  right_categoryEffect:
+  - impact: 1
+    value: -15
+  - impact: 0
+    value: 0
+  - impact: 0
+    value: 0
+  right_cardListToAdd: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e2af88a3f9ebd49a44ebdd33b035a6, type: 3}
+  m_Name: Card#mailCollegue
+  m_EditorClassIdentifier: 
+  dialog_string: 'A "Mon collegue" Objet: Projet AP075. '
+  AnswerLeft_string: '"Salut Michel, as-tu des infos sur AP075 ?"'
+  AnswerRight_string: "\"Monsieur, pouvez-vous me faire correspondre les derni\xE8res
+    informations sur la projet en cours. Cordialement\""
+  character: {fileID: 11400000, guid: d8afefe69ed392d45ac1aad3a169cb52, type: 2}
+  left_categoryEffect:
+  - impact: 0
+    value: 0
+  - impact: 1
+    value: 15
+  - impact: 0
+    value: 0
+  left_cardListToAdd: []
+  right_categoryEffect:
+  - impact: 0
+    value: 0
+  - impact: 1
+    value: -15
+  - impact: 0
+    value: 0
+  right_cardListToAdd: []

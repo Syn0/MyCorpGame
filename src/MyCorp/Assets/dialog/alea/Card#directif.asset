@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e2af88a3f9ebd49a44ebdd33b035a6, type: 3}
+  m_Name: Card#directif
+  m_EditorClassIdentifier: 
+  dialog_string: "\"faites-moi \xE7a maintenant c'est urgent\""
+  AnswerLeft_string: "\"Je pense qu'il serait plus int\xE9ressant de partir sur un
+    autre axe\""
+  AnswerRight_string: '"Cela sera fait des que possible"'
+  character: {fileID: 11400000, guid: 6d6ed1ae082b0c145ba81f81ab727e4c, type: 2}
+  left_categoryEffect:
+  - impact: 1
+    value: -30
+  - impact: 0
+    value: 0
+  - impact: 0
+    value: 0
+  left_cardListToAdd: []
+  right_categoryEffect:
+  - impact: 1
+    value: 15
+  - impact: 0
+    value: 0
+  - impact: 0
+    value: 0
+  right_cardListToAdd: []
